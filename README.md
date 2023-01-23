@@ -1,5 +1,5 @@
 
-# Counter Component
+# CPF Validator
 
 Hi! This is a project developed with the intention to practicing React.js
 
