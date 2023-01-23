@@ -1,7 +1,7 @@
 
 # CPF Validator
 
-Hi! This is a project developed with the intention to practicing React.js
+Hi! This is a project developed with the intention to practicing JavaScript
 
 Nice things that could be learned from this project:
 
