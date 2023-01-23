@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #212226;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+input,
+button {
+  width: 30rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+  border-radius: 0.3rem;
+}
+
+input {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+}
+
+.validateButton {
+  background-color: #5280e2;
+}
+
+.cleanButton {
+  background-color: #E0E0E2;
+  color: #212226;
+}
+
+label {
+  position: relative;
+}
+
+.valid + span::before {
+  margin: 0 auto;
+  position: absolute;
+  right: 25px;
+  top: calc(20px - 12px);
+  content: "✓";
+  color: green;
+}
+
+.invalid + span::before {
+  margin: 0 auto;
+  position: absolute;
+  right: 25px;
+  top: calc(20px - 12px);
+  content: "X";
+  color: red;
+}
+
+input.valid {
+  border: 3px solid green;
+}
+
+input.invalid {
+  border: 3px solid red;
+}
